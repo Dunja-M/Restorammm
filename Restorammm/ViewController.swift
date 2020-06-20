@@ -39,6 +39,7 @@ class ViewController: UIViewController {
 	@IBAction func choiceAction(_ sender: UIButton) {
 		
 		menuBrain.checkAnswer(currentAnswer: sender.titleLabel?.text)
+		updateUI()
 	}
 	
 }
