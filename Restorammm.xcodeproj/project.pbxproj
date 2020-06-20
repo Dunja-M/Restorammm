@@ -13,6 +13,8 @@
 		9C43C5EF249C157C0039EC3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C43C5ED249C157C0039EC3F /* Main.storyboard */; };
 		9C43C5F1249C157D0039EC3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C43C5F0249C157D0039EC3F /* Assets.xcassets */; };
 		9C43C5F4249C157D0039EC3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C43C5F2249C157D0039EC3F /* LaunchScreen.storyboard */; };
+		9C43C5FC249C1CF80039EC3F /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C43C5FB249C1CF80039EC3F /* MenuItem.swift */; };
+		9C43C5FE249C1D4C0039EC3F /* MenuBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C43C5FD249C1D4C0039EC3F /* MenuBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9C43C5F0249C157D0039EC3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C43C5F3249C157D0039EC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C43C5F5249C157D0039EC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C43C5FB249C1CF80039EC3F /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		9C43C5FD249C1D4C0039EC3F /* MenuBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				9C43C5E7249C157C0039EC3F /* AppDelegate.swift */,
 				9C43C5E9249C157C0039EC3F /* SceneDelegate.swift */,
 				9C43C5EB249C157C0039EC3F /* ViewController.swift */,
+				9C43C5FB249C1CF80039EC3F /* MenuItem.swift */,
+				9C43C5FD249C1D4C0039EC3F /* MenuBrain.swift */,
 				9C43C5ED249C157C0039EC3F /* Main.storyboard */,
 				9C43C5F0249C157D0039EC3F /* Assets.xcassets */,
 				9C43C5F2249C157D0039EC3F /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C43C5EC249C157C0039EC3F /* ViewController.swift in Sources */,
+				9C43C5FC249C1CF80039EC3F /* MenuItem.swift in Sources */,
 				9C43C5E8249C157C0039EC3F /* AppDelegate.swift in Sources */,
+				9C43C5FE249C1D4C0039EC3F /* MenuBrain.swift in Sources */,
 				9C43C5EA249C157C0039EC3F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
